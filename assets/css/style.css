@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    background-color: #263228;
+    color: #ddd;
+    align-content: center;
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#grid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid tr td {
+    border: 1px solid #fff;
+    background-color: #999;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+#grid tr td.active {
+    background-color: #333;
+}
+
+#grid tr td.mine {
+    background-color: #d84315;
+}
+
+button {
+    margin: 12px 0;
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .7;
+}
